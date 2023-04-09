@@ -43,6 +43,13 @@ const emailReminderPerPayment = true;       => sends an email per payment due, i
 
 Once you created your spreadsheet, on the top menu, click on `Extensions` > `Apps Script`
 
-On the Apps Script window, click on the plus sign to add a new script and copy paste the contents of the script.
+In Apps Script, Create a new file and paste the contents of `payment-reminder.js`, you can test your sheet and configuration by running dryRun. 
+
+![Screenshot](screenshot.png)
+
+To setup a daily reminder, run `createDailyReminder` function and confirm from the Triggers screen that your reminder is set!
+
+![Screenshot](screenshot2.png)
 
 
+That's all folks! Enjoy your reminder :) 
