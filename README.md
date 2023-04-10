@@ -22,6 +22,19 @@ Go to [https://sheets.google.com](https://sheets.google.com) and create a new sp
 
 # Configuration/Options
 
+## Spreadsheet Options/Utilization
+
+CURRENT BALANCE/RECURRING/AUTOPAY column have 3 options.
+
+```
+A                  => Auto pay, no reminders
+R                  => Recurring payment, remind every time
+Balance Amount > 0 => Sends a reminder
+$0.00              => Balance paid, no reminders
+```
+
+Use option `A` for your autopay accounts, you will not receive a reminder for AutoPay, if you still want to get reminders for autopay items, use option `R` for recurring payments. For credit cards and other balance based payments, rule to receive a reminder is to have an amount > 0 to in `CURRENT BALANCE/RECURRING/AUTOPAY` column.
+
 ## Spreadsheet Configuration 
 
 Firstly, configure your sheet name. 
